@@ -18,33 +18,53 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
-  <body>
+  <body class="bg-[#F3E5D7]">
     <img src="./assets/images/image-omelette.jpeg" alt="omelette" />
-    <div>
-      <div>
-        <h1>Simple Omelette Recipe</h1>
-        <p>
+    <div class="flex flex-col gap-[32px] bg-white px-[32px] py-[40px]">
+      <div class="flex h-[216px] w-[311px] flex-col gap-[24px]">
+        <h1 class="font-[YoungSerif] text-[36px]/[100%]">
+          Simple Omelette Recipe
+        </h1>
+        <p class="font-[Outfit] text-[16px]/[150%] font-normal text-[#5F564D]">
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
       </div>
 
-      <div>
-        <h2>Preparation time</h2>
-        <li>Total: Approximately 10 minutes</li>
-        <li>Preparation: 5 minutes</li>
-        <li>Cooking: 5 minutes</li>
+      <div
+        class="flex flex-col gap-[16px] rounded-[12px] bg-[#FFF7FB] p-[24px]"
+      >
+        <h2
+          class="w-[263px] font-[Outfit] text-[20px]/[100%] font-semibold text-[#7A284E]"
+        >
+          Preparation time
+        </h2>
+        <ul
+          class="flex list-disc flex-col gap-[8px] *:ml-[20px] *:w-[223px] *:pl-[20px] *:font-[Outfit] *:text-[16px]/[150%] *:font-normal *:text-[#5F564D] marker:text-[#7A284E]"
+        >
+          <li>
+            <span class="font-bold">Total</span>: Approximately 10 minutes
+          </li>
+          <li><span class="font-bold">Preparation</span>: 5 minutes</li>
+          <li><span class="font-bold">Cooking</span>: 5 minutes</li>
+        </ul>
       </div>
-      <div>
-        <h2>Ingredients</h2>
-        <li>2-3 large eggs</li>
-        <li>Salt, to taste</li>
-        <li>Pepper, to taste</li>
-        <li>1 tablespoon of butter or oil</li>
-        <li>
-          Optional fillings: cheese, diced vegetables, cooked meats, herbs
-        </li>
+      <div class="flex flex-col gap-[24px]">
+        <h2
+          class="font-[YoungSerif] text-[28px]/[100%] font-normal text-[#854632]"
+        >
+          Ingredients
+        </h2>
+        <ul class="list-disc marker:text-[#854632]">
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul>
       </div>
       <div>
         <h2>Instructions</h2>
