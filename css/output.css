@@ -221,6 +221,12 @@
   .max-w-\[616px\] {
     max-width: 616px;
   }
+  .max-w-\[736px\] {
+    max-width: 736px;
+  }
+  .max-w-\[px\] {
+    max-width: px;
+  }
   .min-w-\[311px\] {
     min-width: 311px;
   }
@@ -712,6 +718,11 @@
   .md\:py-\[128px\] {
     @media (width >= 48rem) {
       padding-block: 128px;
+    }
+  }
+  .lg\:max-w-\[736px\] {
+    @media (width >= 64rem) {
+      max-width: 736px;
     }
   }
 }
